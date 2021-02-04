@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3857b4c-2a53-43e3-8175-42eecdde6645" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1o1X4p7tPZGhfvVggmTsUMylMOA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ListPodsTest.getAllPods" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;pod_tests.ListPodsTest.getAllPods&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ListPodsTest.getAllPods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3857b4c-2a53-43e3-8175-42eecdde6645" name="Default Changelist" comment="" />
+      <created>1612454881649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612454881649</updated>
+      <workItem from="1612454888377" duration="1527000" />
+      <workItem from="1612456936015" duration="4655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="181" key="#Project_Structure" timestamp="1612466766711">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="560" y="181" key="#Project_Structure/0.23.1920.990@0.23.1920.990" timestamp="1612466766711" />
+    <state x="773" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1612455460461">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="773" y="224" key="#com.intellij.ide.util.MemberChooser/0.23.1920.990@0.23.1920.990" timestamp="1612455460461" />
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom" timestamp="1612456422185">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.bottom/0.23.1920.990@0.23.1920.990" timestamp="1612456422185" />
+    <state width="1878" height="259" key="GridCell.Tab.0.center" timestamp="1612456422184">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.center/0.23.1920.990@0.23.1920.990" timestamp="1612456422184" />
+    <state width="1878" height="259" key="GridCell.Tab.0.left" timestamp="1612456422184">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.left/0.23.1920.990@0.23.1920.990" timestamp="1612456422184" />
+    <state width="1878" height="259" key="GridCell.Tab.0.right" timestamp="1612456422185">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1878" height="259" key="GridCell.Tab.0.right/0.23.1920.990@0.23.1920.990" timestamp="1612456422185" />
+    <state x="653" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1612456956186">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="653" y="348" key="com.intellij.ide.util.TipDialog/0.23.1920.990@0.23.1920.990" timestamp="1612456956186" />
+    <state x="618" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612466747196">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="618" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.990@0.23.1920.990" timestamp="1612466747196" />
+  </component>
+</project>
