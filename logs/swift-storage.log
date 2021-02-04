@@ -1,0 +1,55 @@
+ * Starting enhanced syslogd rsyslogd
+rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+rsyslogd: activation of module imklog failed [v8.32.0 try http://www.rsyslog.com/e/2145 ]
+   ...done.
+ * Starting rsync daemon rsync
+   ...done.
+Starting memcached: memcached.
+Device d0r1z1-127.0.0.1:6010R127.0.0.1:6010/sdb1_"" with 1.0 weight got id 0
+Reassigned 1024 (100.00%) partitions. Balance is now 0.00.  Dispersion is now 0.00
+Device d0r1z1-127.0.0.1:6011R127.0.0.1:6011/sdb1_"" with 1.0 weight got id 0
+Reassigned 1024 (100.00%) partitions. Balance is now 0.00.  Dispersion is now 0.00
+Device d0r1z1-127.0.0.1:6012R127.0.0.1:6012/sdb1_"" with 1.0 weight got id 0
+Reassigned 1024 (100.00%) partitions. Balance is now 0.00.  Dispersion is now 0.00
+Starting proxy-server...(/etc/swift/proxy-server.conf)
+Starting container-server...(/etc/swift/container-server/1.conf)
+Starting account-server...(/etc/swift/account-server/1.conf)
+Starting object-server...(/etc/swift/object-server/1.conf)
+Starting container-updater...(/etc/swift/container-server/1.conf)
+Starting container-sharder...(/etc/swift/container-server/1.conf)
+Starting account-auditor...(/etc/swift/account-server/1.conf)
+Starting object-replicator...(/etc/swift/object-server/1.conf)
+Starting container-replicator...(/etc/swift/container-server/1.conf)
+Starting object-auditor...(/etc/swift/object-server/1.conf)
+Unable to locate config for object-expirer
+Starting container-auditor...(/etc/swift/container-server/1.conf)
+Starting account-replicator...(/etc/swift/account-server/1.conf)
+Starting account-reaper...(/etc/swift/account-server/1.conf)
+Starting container-sync...(/etc/swift/container-server/1.conf)
+Starting object-updater...(/etc/swift/object-server/1.conf)
+Unable to locate config for container-reconciler
+Starting object-reconstructor...(/etc/swift/object-server/1.conf)
+Unable to load internal client from config: '/etc/swift/internal-client.conf' ([Errno 2] No such file or directory: '/etc/swift/internal-client.conf')
+
+Unable to find account-auditor config section in /etc/swift/account-server/1.conf
+
+Unable to find object-replicator config section in /etc/swift/object-server/1.conf
+
+Unable to find container-replicator config section in /etc/swift/container-server/1.conf
+
+Unable to find container-auditor config section in /etc/swift/container-server/1.conf
+
+Unable to find account-replicator config section in /etc/swift/account-server/1.conf
+
+Unable to find account-reaper config section in /etc/swift/account-server/1.conf
+
+Unable to find container-sync config section in /etc/swift/container-server/1.conf
+
+Unable to find object-updater config section in /etc/swift/object-server/1.conf
+
+Unable to find object-reconstructor config section in /etc/swift/object-server/1.conf
+
+2021-02-19 13:57:12,831 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2021-02-19 13:57:12,913 INFO RPC interface 'supervisor' initialized
+2021-02-19 13:57:12,913 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2021-02-19 13:57:12,913 INFO supervisord started with pid 196

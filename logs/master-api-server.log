@@ -1,0 +1,231 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+/app/lake_master/app_container.binary.runfiles/pip3/flask_sqlalchemy/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+INFO:werkzeug: * Running on http://master-api-server-5d46f764f-rf455:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+/app/lake_master/app_container.binary.runfiles/pip3/flask_sqlalchemy/flask_sqlalchemy/__init__.py:835: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 229-842-649
+INFO:newrelic.core.agent:New Relic Python Agent (5.18.0.148)
+DEBUG:newrelic.core.agent:Creating instance of Python agent in process 9.
+DEBUG:newrelic.core.agent:Agent was initialized from: '  File "/usr/lib/python3.5/threading.py", line 882, in _bootstrap\n    self._bootstrap_inner()\n  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner\n    self.run()\n  File "/usr/lib/python3.5/threading.py", line 862, in run\n    self._target(*self._args, **self._kwargs)\n  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread\n    self.finish_request(request, client_address)\n  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request\n    self.RequestHandlerClass(request, client_address, self)\n  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__\n    self.handle()\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 293, in handle\n    rv = BaseHTTPRequestHandler.handle(self)\n  File "/usr/lib/python3.5/http/server.py", line 422, in handle\n    self.handle_one_request()\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 328, in handle_one_request\n    return self.run_wsgi()\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 270, in run_wsgi\n    execute(self.server.app)\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 260, in execute\n    for data in application_iter:\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/debug/__init__.py", line 288, in debug_application\n    app_iter = self.app(environ, start_response)\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 2309, in __call__\n    return self.wsgi_app(environ, start_response)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/packages/wrapt/wrappers.py", line 606, in __call__\n    args, kwargs)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/wsgi_application.py", line 602, in _nr_wsgi_application_wrapper_\n    target_application = application_instance(application)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/application.py", line 152, in application_instance\n    return Application._instance(name)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/application.py", line 41, in _instance\n    agent = newrelic.core.agent.agent_instance()\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/core/agent.py", line 761, in agent_instance\n    return Agent.agent_singleton()\n'
+DEBUG:newrelic.core.agent:Initializing Python agent.
+DEBUG:newrelic.core.agent:Registering builtin data sources.
+DEBUG:newrelic.core.agent:Register data source with agent (<function _CPUUsageDataSource at 0x7f3b71b0e598>, None, None, None, {}).
+DEBUG:newrelic.core.agent:Register data source with agent (<function memory_usage_data_source at 0x7f3b71b0e950>, None, None, None, {}).
+DEBUG:newrelic.core.agent:Register data source with agent (<function thread_utilization_data_source at 0x7f3b71b0ed08>, None, None, None, {}).
+DEBUG:newrelic.core.agent:Creating application instance for 'HM-Data Manager LOCAL' in process 9.
+DEBUG:newrelic.core.agent:Application was activated from: '  File "/usr/lib/python3.5/threading.py", line 882, in _bootstrap\n    self._bootstrap_inner()\n  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner\n    self.run()\n  File "/usr/lib/python3.5/threading.py", line 862, in run\n    self._target(*self._args, **self._kwargs)\n  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread\n    self.finish_request(request, client_address)\n  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request\n    self.RequestHandlerClass(request, client_address, self)\n  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__\n    self.handle()\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 293, in handle\n    rv = BaseHTTPRequestHandler.handle(self)\n  File "/usr/lib/python3.5/http/server.py", line 422, in handle\n    self.handle_one_request()\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 328, in handle_one_request\n    return self.run_wsgi()\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 270, in run_wsgi\n    execute(self.server.app)\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/serving.py", line 260, in execute\n    for data in application_iter:\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__werkzeug/werkzeug/debug/__init__.py", line 288, in debug_application\n    app_iter = self.app(environ, start_response)\n  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 2309, in __call__\n    return self.wsgi_app(environ, start_response)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/packages/wrapt/wrappers.py", line 606, in __call__\n    args, kwargs)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/wsgi_application.py", line 605, in _nr_wsgi_application_wrapper_\n    transaction = WSGIWebTransaction(target_application, environ)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/web_transaction.py", line 633, in __init__\n    enabled=enabled)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/web_transaction.py", line 146, in __init__\n    super(WebTransaction, self).__init__(application, enabled)\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/transaction.py", line 294, in __init__\n    application.activate()\n  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/application.py", line 102, in activate\n    newrelic.api.import_hook._uninstrumented_modules)\n'
+DEBUG:newrelic.core.application:Initializing application with name 'HM-Data Manager LOCAL' and linked applications of [].
+DEBUG:newrelic.core.application:Register data source <function _CPUUsageDataSource at 0x7f3b71b0e598> against application where application='HM-Data Manager LOCAL', name=None, settings=None and properties={}.
+DEBUG:newrelic.samplers.data_sampler:Initialising data sampler for {'producer.group': None, 'producer.guid': None, 'producer.name': 'CPU Usage', 'consumer.name': 'HM-Data Manager LOCAL', 'consumer.vendor': 'New Relic', 'producer.version': None}.
+DEBUG:newrelic.core.application:Register data source <function memory_usage_data_source at 0x7f3b71b0e950> against application where application='HM-Data Manager LOCAL', name=None, settings=None and properties={}.
+DEBUG:newrelic.samplers.data_sampler:Initialising data sampler for {'producer.group': None, 'producer.guid': None, 'producer.name': 'Memory Usage', 'consumer.name': 'HM-Data Manager LOCAL', 'consumer.vendor': 'New Relic', 'producer.version': None}.
+DEBUG:newrelic.core.application:Register data source <function thread_utilization_data_source at 0x7f3b71b0ed08> against application where application='HM-Data Manager LOCAL', name=None, settings=None and properties={}.
+DEBUG:newrelic.samplers.data_sampler:Initialising data sampler for {'producer.group': None, 'producer.guid': None, 'producer.name': 'Thread Utilization', 'consumer.name': 'HM-Data Manager LOCAL', 'consumer.vendor': 'New Relic', 'producer.version': None}.
+INFO:root:New node coming online at:http://node-s3:8774
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): node-s3:8774
+DEBUG:newrelic.common.utilization:Unable to fetch aws data from 169.254.169.254/2016-09-02/dynamic/instance-identity/document: timeout('timed out',)
+DEBUG:newrelic.common.utilization:Unable to fetch gcp data from metadata.google.internal/computeMetadata/v1/instance/: gaierror(-2, 'Name or service not known')
+DEBUG:newrelic.common.utilization:Unable to fetch azure data from 169.254.169.254/metadata/instance/compute: timeout('timed out',)
+INFO:newrelic.core.agent_protocol:Reporting to fake collector
+DEBUG:newrelic.core.agent:Activating agent instance.
+DEBUG:newrelic.core.agent:Start Python Agent main thread.
+DEBUG:newrelic.core.agent:Entering harvest loop.
+DEBUG:newrelic.core.application:Starting data samplers for application 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Starting data sampler for 'CPU Usage' in application 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Starting data sampler for 'Memory Usage' in application 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Starting data sampler for 'Thread Utilization' in application 'HM-Data Manager LOCAL'.
+DEBUG:urllib3.connectionpool:http://node-s3:8774 "GET / HTTP/1.1" 200 4
+INFO:werkzeug:10.1.27.75 - - [19/Feb/2021 13:56:32] "POST /v2/nodes HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/packages/wrapt/wrappers.py", line 606, in __call__
+    args, kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/api/wsgi_application.py", line 682, in _nr_wsgi_application_wrapper_
+    result = wrapped(environ, _start_response)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/flask_restful/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/packages/wrapt/wrappers.py", line 606, in __call__
+    args, kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/hooks/framework_flask.py", line 111, in _nr_wrapper_Flask_handle_exception_
+    return wrapped(*args, **kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/flask_restful/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/packages/wrapt/wrappers.py", line 606, in __call__
+    args, kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/hooks/framework_flask.py", line 111, in _nr_wrapper_Flask_handle_exception_
+    return wrapped(*args, **kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/_compat.py", line 34, in reraise
+    raise value.with_traceback(tb)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/packages/wrapt/wrappers.py", line 567, in __call__
+    args, kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/newrelic/newrelic/hooks/framework_flask.py", line 50, in _nr_wrapper_handler_
+    return wrapped(*args, **kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/flask_restful/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/py_deps/pypi__flask/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/flask_restful/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/app/lake_master/app_container.binary.runfiles/__main__/lake_master/src/node/resources.py", line 83, in post
+    .filter_by(inbound_url=node_record.inbound_url)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/query.py", line 2700, in first
+    ret = list(self[0:1])
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/query.py", line 2498, in __getitem__
+    return list(res)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/query.py", line 2802, in __iter__
+    return self._execute_and_instances(context)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/query.py", line 2815, in _execute_and_instances
+    close_with_result=True)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/query.py", line 2806, in _connection_from_session
+    **kw)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/session.py", line 988, in connection
+    execution_options=execution_options)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/session.py", line 993, in _connection_for_bind
+    engine, execution_options)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/orm/session.py", line 397, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/base.py", line 2039, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/base.py", line 2074, in _wrap_pool_connect
+    return fn()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/pool.py", line 376, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/pool.py", line 713, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/pool.py", line 480, in checkout
+    rec = pool._do_get()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/pool.py", line 1060, in _do_get
+    self._dec_overflow()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/util/langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/util/compat.py", line 187, in reraise
+    raise value
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/pool.py", line 1057, in _do_get
+    return self._create_connection()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/pool.py", line 323, in _create_connection
+    return _ConnectionRecord(self)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/pool.py", line 454, in __init__
+    exec_once(self.connection, self)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/event/attr.py", line 246, in exec_once
+    self(*args, **kw)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/event/attr.py", line 256, in __call__
+    fn(*args, **kw)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/util/langhelpers.py", line 1319, in go
+    return once_fn(*arg, **kw)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/strategies.py", line 165, in first_connect
+    dialect.initialize(c)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/dialects/postgresql/pg8000.py", line 167, in initialize
+    super(PGDialect_pg8000, self).initialize(connection)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/dialects/postgresql/base.py", line 2084, in initialize
+    super(PGDialect, self).initialize(connection)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/default.py", line 238, in initialize
+    self._get_server_version_info(connection)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/dialects/postgresql/base.py", line 2287, in _get_server_version_info
+    v = connection.execute("select version()").scalar()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/base.py", line 906, in execute
+    return self._execute_text(object, multiparams, params)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/base.py", line 1054, in _execute_text
+    statement, parameters
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/base.py", line 1159, in _execute_context
+    result = context._setup_crud_result_proxy()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/default.py", line 822, in _setup_crud_result_proxy
+    result = self.get_result_proxy()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/default.py", line 798, in get_result_proxy
+    return result.ResultProxy(self)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/result.py", line 497, in __init__
+    self._init_metadata()
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/result.py", line 526, in _init_metadata
+    self._metadata = ResultMetaData(self, metadata)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/engine/result.py", line 251, in __init__
+    colname = dialect._description_decoder(colname)
+  File "/app/lake_master/app_container.binary.runfiles/pip3/sqlalchemy/sqlalchemy/processors.py", line 70, in process
+    return decoder(value, errors)[0]
+  File "/usr/lib/python3.5/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+TypeError: a bytes-like object is required, not 'str'
+INFO:root:New node coming online at:http://node-s3:8774
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): node-s3:8774
+DEBUG:urllib3.connectionpool:http://node-s3:8774 "GET / HTTP/1.1" 200 4
+INFO:werkzeug:10.1.27.75 - - [19/Feb/2021 13:57:10] "POST /v2/nodes HTTP/1.1" 201 -
+DEBUG:newrelic.core.agent:Commencing harvest[flexible] of application data.
+DEBUG:newrelic.core.application:Snapshotting for harvest[flexible] of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Completed harvest[flexible] for 'HM-Data Manager LOCAL' in 0.00 seconds.
+DEBUG:newrelic.core.agent:Completed harvest[flexible] of application data in 0.00 seconds.
+DEBUG:newrelic.core.agent:Commencing harvest[default] of application data.
+DEBUG:newrelic.core.application:Snapshotting for harvest[default] of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Fetching metrics from data sources for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Sending analytics event data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Processing slow SQL data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.stats_engine:Generating slow SQL data.
+DEBUG:newrelic.core.stats_engine:Generating transaction trace data.
+DEBUG:newrelic.core.application:Normalizing metrics for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Sending metric data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Done sending data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Process agent commands during harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Process agent commands for 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Send profiling data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Finalizing data.
+DEBUG:newrelic.core.application:Completed harvest[default] for 'HM-Data Manager LOCAL' in 0.07 seconds.
+DEBUG:newrelic.core.agent:Completed harvest[default] of application data in 0.07 seconds.
+DEBUG:newrelic.core.agent:Commencing harvest[flexible] of application data.
+DEBUG:newrelic.core.application:Snapshotting for harvest[flexible] of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Completed harvest[flexible] for 'HM-Data Manager LOCAL' in 0.00 seconds.
+DEBUG:newrelic.core.agent:Completed harvest[flexible] of application data in 0.00 seconds.
+DEBUG:newrelic.core.agent:Commencing harvest[default] of application data.
+DEBUG:newrelic.core.application:Snapshotting for harvest[default] of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Fetching metrics from data sources for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Processing slow SQL data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.stats_engine:Generating slow SQL data.
+DEBUG:newrelic.core.stats_engine:Generating transaction trace data.
+DEBUG:newrelic.core.application:Normalizing metrics for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Sending metric data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Done sending data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Process agent commands during harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Process agent commands for 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Send profiling data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Finalizing data.
+DEBUG:newrelic.core.application:Completed harvest[default] for 'HM-Data Manager LOCAL' in 0.02 seconds.
+DEBUG:newrelic.core.agent:Completed harvest[default] of application data in 0.02 seconds.
+DEBUG:newrelic.core.agent:Commencing harvest[flexible] of application data.
+DEBUG:newrelic.core.application:Snapshotting for harvest[flexible] of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Completed harvest[flexible] for 'HM-Data Manager LOCAL' in 0.00 seconds.
+DEBUG:newrelic.core.agent:Completed harvest[flexible] of application data in 0.00 seconds.
+DEBUG:newrelic.core.agent:Commencing harvest[default] of application data.
+DEBUG:newrelic.core.application:Snapshotting for harvest[default] of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Fetching metrics from data sources for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Processing slow SQL data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.stats_engine:Generating slow SQL data.
+DEBUG:newrelic.core.stats_engine:Generating transaction trace data.
+DEBUG:newrelic.core.application:Normalizing metrics for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Sending metric data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Done sending data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Process agent commands during harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Process agent commands for 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Send profiling data for harvest of 'HM-Data Manager LOCAL'.
+DEBUG:newrelic.core.application:Finalizing data.
+DEBUG:newrelic.core.application:Completed harvest[default] for 'HM-Data Manager LOCAL' in 0.02 seconds.
+DEBUG:newrelic.core.agent:Completed harvest[default] of application data in 0.02 seconds.

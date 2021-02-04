@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3857b4c-2a53-43e3-8175-42eecdde6645" name="Default Changelist" comment="" />
+    <list default="true" id="d3857b4c-2a53-43e3-8175-42eecdde6645" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/K8sClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/K8sClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pod_tests/ABACDeploymentReadinessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pod_tests/ABACDeploymentReadinessTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +23,70 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="k8s-config-automation-test" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -34,32 +100,41 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1o1X4p7tPZGhfvVggmTsUMylMOA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pod_tests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.ListPodsTest.getAllPods">
     <configuration name="ListPodsTest.getAllPods" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -80,9 +155,69 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="k8s-config-automation-test [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="k8s-config-automation-test [spotlessApply]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="spotlessApply" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="k8s-config-automation-test [spotlessCheck]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="spotlessCheck" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ListPodsTest.getAllPods" />
+        <item itemvalue="Gradle.k8s-config-automation-test [spotlessApply]" />
+        <item itemvalue="Gradle.k8s-config-automation-test [spotlessCheck]" />
+        <item itemvalue="Gradle.k8s-config-automation-test [check]" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +232,9 @@
       <option name="presentableId" value="Default" />
       <updated>1612454881649</updated>
       <workItem from="1612454888377" duration="1527000" />
-      <workItem from="1612456936015" duration="4655000" />
+      <workItem from="1612456936015" duration="27453000" />
+      <workItem from="1612822864451" duration="19813000" />
+      <workItem from="1613138737117" duration="21312000" />
     </task>
     <servers />
   </component>
@@ -105,37 +242,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="181" key="#Project_Structure" timestamp="1612466766711">
+    <state x="560" y="181" key="#Project_Structure" timestamp="1612898223614">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state x="560" y="181" key="#Project_Structure/0.23.1920.990@0.23.1920.990" timestamp="1612466766711" />
-    <state x="773" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1612455460461">
+    <state x="560" y="181" key="#Project_Structure/0.23.1920.990@0.23.1920.990" timestamp="1612898223614" />
+    <state x="696" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612822302948">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state x="773" y="224" key="#com.intellij.ide.util.MemberChooser/0.23.1920.990@0.23.1920.990" timestamp="1612455460461" />
-    <state width="1878" height="259" key="GridCell.Tab.0.bottom" timestamp="1612456422185">
+    <state x="696" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.990@0.23.1920.990" timestamp="1612822302948" />
+    <state x="773" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1612818894556">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.bottom/0.23.1920.990@0.23.1920.990" timestamp="1612456422185" />
-    <state width="1878" height="259" key="GridCell.Tab.0.center" timestamp="1612456422184">
+    <state x="773" y="224" key="#com.intellij.ide.util.MemberChooser/0.23.1920.990@0.23.1920.990" timestamp="1612818894556" />
+    <state x="593" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612882440373">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.center/0.23.1920.990@0.23.1920.990" timestamp="1612456422184" />
-    <state width="1878" height="259" key="GridCell.Tab.0.left" timestamp="1612456422184">
+    <state x="593" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.990@0.23.1920.990" timestamp="1612882440373" />
+    <state width="1878" height="433" key="GridCell.Tab.0.bottom" timestamp="1612559172526">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.left/0.23.1920.990@0.23.1920.990" timestamp="1612456422184" />
-    <state width="1878" height="259" key="GridCell.Tab.0.right" timestamp="1612456422185">
+    <state width="1878" height="433" key="GridCell.Tab.0.bottom/0.23.1920.990@0.23.1920.990" timestamp="1612559172526" />
+    <state width="1878" height="433" key="GridCell.Tab.0.center" timestamp="1612559172525">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state width="1878" height="259" key="GridCell.Tab.0.right/0.23.1920.990@0.23.1920.990" timestamp="1612456422185" />
-    <state x="653" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1612456956186">
+    <state width="1878" height="433" key="GridCell.Tab.0.center/0.23.1920.990@0.23.1920.990" timestamp="1612559172525" />
+    <state width="1878" height="433" key="GridCell.Tab.0.left" timestamp="1612559172525">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
-    <state x="653" y="348" key="com.intellij.ide.util.TipDialog/0.23.1920.990@0.23.1920.990" timestamp="1612456956186" />
+    <state width="1878" height="433" key="GridCell.Tab.0.left/0.23.1920.990@0.23.1920.990" timestamp="1612559172525" />
+    <state width="1878" height="433" key="GridCell.Tab.0.right" timestamp="1612559172526">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state width="1878" height="433" key="GridCell.Tab.0.right/0.23.1920.990@0.23.1920.990" timestamp="1612559172526" />
+    <state x="571" y="368" key="com.intellij.ide.util.TipDialog" timestamp="1613139035388">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="571" y="368" key="com.intellij.ide.util.TipDialog/0.23.1920.990@0.23.1920.990" timestamp="1613139035388" />
     <state x="618" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612466747196">
       <screen x="0" y="23" width="1920" height="990" />
     </state>
     <state x="618" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.990@0.23.1920.990" timestamp="1612466747196" />
+    <state x="625" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1613758086609">
+      <screen x="0" y="23" width="1920" height="990" />
+    </state>
+    <state x="625" y="240" width="670" height="676" key="search.everywhere.popup/0.23.1920.990@0.23.1920.990" timestamp="1613758086609" />
   </component>
 </project>

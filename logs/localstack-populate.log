@@ -1,0 +1,10 @@
+Feb 19, 2021 1:57:05 PM node.PopulateLocalS3 main
+INFO: Beginning Local s3 populate for bucket: data
+Feb 19, 2021 1:57:11 PM config.clients.S3ClientModule setEndpointOverride
+INFO: Local config detected. Setting PathStyleAccessEnabled
+Feb 19, 2021 1:57:11 PM config.clients.S3ClientModule provideS3Client
+INFO: S3 client configured for endpoint: http://localstack:4566 In region null
+Feb 19, 2021 1:57:37 PM com.amazonaws.services.s3.AmazonS3Client putObject
+WARNING: No content length specified for stream data.  Stream contents will be buffered in memory and could result in out of memory errors.
+Feb 19, 2021 1:57:39 PM node.PopulateLocalS3 main
+INFO: Successfully uploaded directory local_bucket to s3://data/
